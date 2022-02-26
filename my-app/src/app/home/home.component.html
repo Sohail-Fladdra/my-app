@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Welcome!</h1>
+  <div class="btn-section">
+    <p class="msg">
+      You have clicked
+      <button (click)="onCounterBtn()" class="btn">this</button>
+      {{ counter }}
+      times!
+    </p>
+  </div>
+</div>
+
+<div class="container">
+  {{ name }}
+  <input type="text" [(ngModel)]="name" />
+</div>

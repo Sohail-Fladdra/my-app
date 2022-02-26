@@ -9,4 +9,8 @@
   font-weight: bold;
   font-family: 'Outfit', sans-serif;
   transition: 0.4s;
+  user-select: none;
+}
+body {
+  min-width: 389px;
 }

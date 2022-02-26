@@ -1,0 +1,22 @@
+.container {
+  margin: auto;
+  width: auto;
+  text-align: center;
+}
+.container > h1 {
+  font-size: 3em;
+}
+.msg {
+  letter-spacing: 0.0625;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.msg button.btn {
+  display: inline-block;
+  margin: 0 0.2em;
+  padding: 0.2em;
+  background-color: darkblue;
+  color: white;
+  vertical-align: middle;
+  padding-bottom: 0.4em;
+}
