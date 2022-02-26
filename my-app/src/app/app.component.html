@@ -1,0 +1,34 @@
+<header>
+  <div class="container">
+    <a href="#" class="logo"> My App </a>
+    <span class="float-right"><- Don't Hover on it!! CSS bug🐛 </span>
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="#"
+            routerLink="/"
+            (click)="onHomeTab()"
+            [class]="homeTab ? 'activeTab' : ''"
+          >
+            Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#"
+            routerLink="/list"
+            (click)="onListTab()"
+            [class]="listTab ? 'activeTab' : ''"
+          >
+            Breweries</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<h1>Hello, <span contenteditable>enter ur name</span></h1>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

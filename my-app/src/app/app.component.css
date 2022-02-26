@@ -1,0 +1,72 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+header > .container {
+  background-color: rgb(3, 3, 202);
+  color: #fff;
+  padding: 0.6em 0.5em;
+  padding-bottom: 1.3em;
+}
+.container a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  margin-left: 0.3em;
+}
+.container ul {
+  margin-top: 2em;
+  display: flex;
+  justify-content: flex-start;
+}
+header .logo {
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-shadow: 1px 1px 3em darkblue;
+}
+.container ul > li {
+  display: inline;
+}
+.container ul a {
+  background-color: darkblue;
+  padding: 0.2em;
+  border: 0.2em;
+  border-radius: 0.3em;
+  margin: auto 0.3em;
+  box-shadow: 0px 3px 6px 3px rgb(2, 2, 65);
+  border: rgb(5, 5, 197) 0.125em solid;
+}
+.container ul a:hover {
+  background-color: rgb(0, 0, 187);
+}
+.container ul a:active {
+  background-color: rgb(4, 4, 99);
+}
+.container .logo:hover {
+  font-size: 2.4em;
+}
+.activeTab {
+  box-shadow: none !important;
+  border: rgb(22, 22, 121) 0.125em solid !important;
+}
+.container .logo:hover::after {
+  content: '‏‏‎ ';
+  font-size: 2.4em;
+}
+.float-right {
+  float: right;
+  margin-top: 0.8em;
+  margin-right: auto;
+}
+.container a span {
+  text-shadow: 0px 0px 3em black;
+}
+h1 span {
+  color: 391a3a;
+  text-transform: capitalize;
+}
+h1 {
+  text-align: center;
+}
