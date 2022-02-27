@@ -1,2 +1,10 @@
-<p>list works!</p>
-<h3>{{ msg }}</h3>
+<div class="container">
+  <h1>Breweries</h1>
+  <ng-template *ngFor="let brew; for: brews">
+    <app-brew-item
+      [name]="brew.name"
+      [country]="brew.country"
+      [website]="brew.website_url"
+    ></app-brew-item>
+  </ng-template>
+</div>
