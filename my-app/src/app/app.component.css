@@ -22,7 +22,7 @@ header > .container {
   justify-content: flex-start;
 }
 header .logo {
-  font-size: 2em;
+  font-size: 2.6rem;
   margin-bottom: 1em;
   text-shadow: 1px 1px 3em darkblue;
 }
