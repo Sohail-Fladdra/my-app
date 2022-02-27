@@ -1,10 +1,11 @@
 <div class="container">
   <h1>Breweries</h1>
-  <ng-template *ngFor="let brew for brews">
+  <div class="center">
     <app-brew-item
+      *ngFor="let brew of brews"
       [name]="brew.name"
       [country]="brew.country"
       [website]="brew.website_url"
     ></app-brew-item>
-  </ng-template>
+  </div>
 </div>

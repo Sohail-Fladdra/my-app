@@ -10,9 +10,10 @@
     </tr>
     <tr>
       <td>Website</td>
-      <td>
+      <td *ngIf="website">
         <a href="{{ website }} ">{{ website }} </a>
       </td>
+      <td *ngIf="!website">not available</td>
     </tr>
   </table>
 </div>

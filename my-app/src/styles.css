@@ -21,12 +21,12 @@ body {
 }
 
 .card {
-  width: 100%;
+  width: 70%;
   height: 6rem;
   background-color: white;
   border-radius: 0.3em;
-  box-shadow: 3px 3px 3px 2px rgb(179, 179, 179), -3px -3px 3px 3px #fff;
-  margin: 0.7em;
+  box-shadow: 3px 3px 3px 2px rgb(179, 179, 179), -3px -3px 4px 4px #fff;
+  margin: 0.4em auto;
   padding: 0.4em;
 }
 a {
