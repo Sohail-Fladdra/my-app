@@ -16,4 +16,36 @@ export class ListComponent implements OnInit {
       console.log(this.brews);
     });
   }
+  onDisplay(str: string, item: any): boolean {
+    str = str.toLowerCase();
+    let name: string;
+    let country: string;
+    let flag: boolean = false;
+
+    name = item.name.toLowerCase();
+    country = item.country.toLowerCase();
+
+    flag = name.includes(str) || country.includes(str);
+
+    console.log(str);
+    console.log(name);
+    console.log(country);
+    console.log(flag);
+
+    return flag;
+  }
+
+  // old function
+  // onDisplay(str: string, item: string): boolean {
+  //   str = str.toLowerCase();
+  //   item = item.toLowerCase();
+  //   let flag: boolean;
+
+  //   console.log(str);
+  //   console.log(item);
+  //   flag = item.includes(str);
+  //   console.log(flag);
+
+  //   return flag;
+  // }
 }

@@ -1,13 +1,11 @@
 <div class="container">
   <h1>Breweries</h1>
-  <label for="searchBar">Search Name </label>
+  <label for="searchBar">Search </label>
   <input id="searchBar" type="text" class="search-bar" [(ngModel)]="search" />
-  <p>
-    You Searched For: <strong> {{ search }} </strong>
-  </p>
   <div class="center">
     <ng-container *ngFor="let brew of brews">
       <app-brew-item
+        *ngIf="onDisplay(search, brew)"
         [name]="brew.name"
         [country]="brew.country"
         [website]="brew.website_url"

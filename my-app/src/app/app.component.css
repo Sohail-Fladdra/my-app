@@ -65,7 +65,7 @@ header .logo {
 }
 h1 span {
   color: 391a3a;
-  text-transform: capitalize;
+  text-transform: capitalize !important;
 }
 h1 {
   text-align: center;
