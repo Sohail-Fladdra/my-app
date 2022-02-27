@@ -7,7 +7,7 @@ import { HttpService } from '../services/http.service';
 })
 export class ListComponent implements OnInit {
   brews: any;
-
+  search: string = '';
   constructor(private hs: HttpService) {}
 
   ngOnInit(): void {
