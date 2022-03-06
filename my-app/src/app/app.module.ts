@@ -7,9 +7,10 @@ import { ListComponent } from './list/list.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrewItemComponent } from './brew-item/brew-item.component';
+import { LoadingComponent } from './loading/loading.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ListComponent, BrewItemComponent],
+  declarations: [AppComponent, HomeComponent, ListComponent, BrewItemComponent, LoadingComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

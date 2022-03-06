@@ -1,13 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>MyApp</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>MyApp</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body>
+    <script>
+      alert('WebApp is loading');
+    </script>
+    <app-root>
+      <span
+        style="
+          display: flex;
+          justify-content: center;
+          width: 100vw;
+          height: 100vh;
+          padding-top: 40vh;
+          font-size: 4rem;
+          background: rgb(3, 3, 202);
+          color: white;
+        "
+      >
+        <p>Loading...</p>
+      </span>
+    </app-root>
+  </body>
 </html>
