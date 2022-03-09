@@ -8,9 +8,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrewItemComponent } from './brew-item/brew-item.component';
 import { LoadingComponent } from './loading/loading.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ListComponent, BrewItemComponent, LoadingComponent],
+  declarations: [AppComponent, HomeComponent, ListComponent, BrewItemComponent, LoadingComponent, PageNotFoundComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
